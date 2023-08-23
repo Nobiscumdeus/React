@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/** Custom codes ***/
+form{
+  margin:10px;
+}
+
+form input 
+{
+  width:300px;
+  padding:10px;
+  border:none;
+  background:transparent;
+  border-bottom:3px solid #ccc;
+  margin-bottom:5px;
+  outline:none;
+  color:#007bff;
+  font-size:20px;
+  color:#fff;
+
+}
+
+button 
+{
+  padding:5px;
+  width:150px;
+  border-radius:10px;
+  height:40px;
+  background:#007bff;
+  color:white;
+  font-size:20px;
+  border:none;
+  cursor:pointer;
+  margin:10px;
+}
+
+ul li{
+  color:#fff;
+  list-style:none;
+  margin:5px;
+
+}
+.buttonclick
+{
+  width:80px;
+  border-radius:5px;
+  padding:5px;
+  background:#ff004f;
+  color:#fff;
+  cursor:pointer;
+  border:none;
+  margin-left:20px;
+
+}
+label{
+  font-size:16px;
+}
+.form-group
+{
+  width:100%;
+}
+form select
+{
+  background:transparent;
+  width:100%;
+  height:5vh;
+  border:none;
+  color:#fff;
+  font-size:16px;
+  cursor:pointer;
+}
+form select option
+{
+  background:#282c34;
+  color:#fff;
+  cursor:pointer;
+}
+form input[type=checkbox]
+{
+  width:50%;
+  height:50%;
+  border-radius:50%;
+  cursor:pointer;
+  font-size:20px;
+}
+form textarea
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  border:2px solid green;
+  background:transparent;
+  color:#fff;
+  resize:none;
+  padding:10px;
+
+}
+form textarea::placeholder
+{
+  text-align:center;
+  font-size:16px;
+  margin-top:50px;
+  letter-spacing:5px;
+  line-height:100px;
+}
+.red
+{
+  background:#ff004f;
+}
