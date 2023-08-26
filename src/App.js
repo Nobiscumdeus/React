@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 import WeatherComponent from './components/Weather.js'
 import TodoApp from './components/TodoApp.js'
