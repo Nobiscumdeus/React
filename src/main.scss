@@ -1,0 +1,40 @@
+$color:#fff;
+$font-size:16px;
+$background-color:#282c34;
+
+h1{
+    color:$color;
+}
+h4{
+    $color:green !global;
+    color:$color //Now this is a global variable 
+}
+
+//Sass Nested Rules
+nav {
+    ul{
+        margin:0;
+        padding:0;
+        list-style:none;
+    }
+    li{
+        display:inline-block;
+    }
+    a{
+        text-decoration:none;
+        display:block;
+    }
+}
+
+@mixin important-text
+{
+    text-align:center;
+    font-weight:bold;
+    border:1px solid black;
+    color:red;
+}
+
+.danger{
+    @include important-text;
+    
+}

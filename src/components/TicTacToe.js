@@ -1,50 +1,48 @@
 import React, {useState} from 'react'
 
 
-function Square({value,onSquareClick}) //Please note that the onSquareClick is a function passed as prop from the Board Component 
+
+function Square({value,onSquareClick}) 
+//Please note that the onSquareClick is a function passed as prop from the Board Component 
+//When the button is clicked, the onSquareClick function does something .
+//The Square is to display the value passed into it.
 {
-    
-  
+     
     return (
-        <button class="square" onClick={onSquareClick}> {value} </button>
+        <button className="square" onClick={onSquareClick}> {value} </button>
     )
 }
 //LoGIC 1: Create a Baard to create the various buttons and numbers
-//LOGIC 2: You create an handleClick function that does something whenever the buttons are clicked 
+//....This is achieved with the Square component 
+//....The Square component also has arguments passed in to display differing value  
+//...controlled f=by the function onSquareClick 
+
 function Board()
 {
-    //.....Lets check for the winner
-    const winner=Winner(squares)
-    let status
-    if(winner)
-    {
-        status="Winner is : " + winner //Don't forget the Winner function was to return either X or O 
-    }
-    else
-    {
-        status="Next Player is : " + (xisNext ? "X":"O") //Let play continue if there is no winner 
-    }
-    const [xisNext,setxisNext] =useState(true)  //This state will help us switch between our users in the handleClick Function 
-    //We create an array in the parent component here that can set the states of the squares automatically
-    const [squares,setSquares]=useState(Array(9).fill(null)) //This fills the arrays with null value at first 
+    //LOGIC : We need to check the next player identity , is it X or O ?
+    const [xisNext, setxisNext] = useState(true); 
+    //LOGIC: We set the initial values of our buttons to null or nothing .
+    const [squares,setSquares]=useState(Array(9).fill(null))
+   
 
-
+  
     function handleClick(i)
     {
-        /**
-         * We will call calculateWinner(squares) in the Board component’s handleClick function to check if a player has won.
-         *  
-         * We also check at the same time you check if a user has clicked a square that already has a X or and O. We’d like to return early in both cases:
-         */
+        //LOGIC 1: "i" here means that we are sending n index to handleClick from Square component eg 1
+        
+    
         if(squares[i] || Winner(squares)){
             return
         }
-        const nextSquares = squares.slice(); //This method creates a copy of the squares array initially created 
+        const nextSquares = squares.slice(); 
+        //This method creates a copy of the squares array initially created 
         //We utilize the logix xisnext to be switching between the two users
         if(xisNext)
         {
-            nextSquares[i] ="X" //It means the first part should be X who is the first user 
-            setxisNext(!xisNext)
+            nextSquares[i] ="X" 
+            setxisNext(!xisNext) 
+            //The initial true condition now changes to false  so we can update  the next player e.g., "O"
+
         }
         else
         {
@@ -52,11 +50,28 @@ function Board()
         }
        
         setSquares(nextSquares)
+        setxisNext(!xisNext);
 
     }
+    const winner=Winner(squares)
+    let status
+    if(winner)
+    {
+        status="Winner is : " + winner 
+        //Don't forget the Winner function was to return either X or O 
+    }
+    else
+    {
+        status="Next Player is : " + (xisNext ? "X":"O") 
+        //Let play continue if there is no winner 
+    }
+    //This state will help us switch between our users in the handleClick Function 
+    //We create an array in the parent component here that can set the states of the squares automatically
+   //This fills the arrays with null value at first 
 
     return (
         <>
+        <h4>TicTacToe Game </h4>
         <p> <b> Status of the Game </b> <br/> {status} </p>
             <div className="board-row">
                 {/* Please remember each square is returning a value passed as prop from here 
@@ -84,6 +99,7 @@ function Board()
     )
 }
 
+
 function Winner(squares)
 {
     const lines=[
@@ -99,7 +115,7 @@ function Winner(squares)
     ];
     for (let i=0; i<lines.length;i++)
     {
-        const [a,b,c]=lines(i) //destructuring the 3 values into a,b and c e.g [0,1,2]
+        const [a,b,c]=lines[i] //destructuring the 3 values into a,b and c e.g [0,1,2]
         //The goal below is to check is 'X' or 'O', is found at the points 
         if(squares[a] && squares[a] === squares[b] && squares[a] === squares[c])
         {
@@ -110,7 +126,6 @@ function Winner(squares)
     }
     return null
 }
-
 
 
 

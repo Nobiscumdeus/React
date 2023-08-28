@@ -4,6 +4,7 @@ import WeatherComponent from './components/Weather.js'
 import TodoApp from './components/TodoApp.js'
 import Form from './components/CrudForm.js'
 import Profile from './components/Profile.js'
+import Board from './components/TicTacToe'
 
 
 /**
@@ -35,6 +36,8 @@ function App() {
         <TodoApp />
         <br/>
         <Form />
+        <br/>
+        <Board />
       
       </header>
       
