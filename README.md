@@ -75,7 +75,7 @@ Showcasing React Applications from the simple to the complex  with in-depth comm
         </td>
     </tr>
     <tr>
-        <td>
+        <td colspan="2">
         <h3> JSX </h3>
         <p>
             1. Javascript XML - Extension to the JavaScript language syntax <br/>
@@ -91,11 +91,7 @@ Showcasing React Applications from the simple to the complex  with in-depth comm
             <code>
             const Hello=()=>{
                 return(
-                    <div className='ChasfatClass'>
-                    <h5> Hello Chasfat </h5>
-                    </div>
-                )
-            }
+                    <div className='ChasfatClass'><h5> Hello Chasfat </h5></div>)}
             </code>
             <h4> React without JSX </h4>
             <code>
