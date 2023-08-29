@@ -45,3 +45,70 @@ Showcasing React Applications from the simple to the complex  with in-depth comm
     
     
 </div>
+<div>
+<h3> Personal Documentation on React JS </h3>
+<hr/>
+<p> Made this personal documentation to aid personal understanding of React while learning, and it will also be helpful you too </p>
+<table>
+    <tr>
+        <td> What are the differences ? </td>
+    </tr>
+    <tr>
+            <th>Functional Components </th>
+            <th>Class Components </th>
+    </tr>
+    <tr>
+        <td> 
+            <p> 1. Absence of 'this' keyword which can be tricky for beginners <br/>
+            2. Functional components are stateless(except with use of hooks)/Dumb/Presentational. However from Version 16.7alpha version, Hooks were added in ReactJS which makes us use states in functional components without using the Class Components  <br/>
+            3. Relatively simple UI logic <br/>
+            4. Does not provide Lifecycle hooks <br/>
+            </p>
+        </td>
+        <td> 
+            <p>
+                1. More feature rich <br/>
+                2. Stateful/Smart/Container <br/>
+                3. Has Complex UI logic <br/>
+                4. Provides lifecycle hooks eg ComponentDidUpdate,ComponentDidMount etc <br/>
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <h3> JSX </h3>
+        <p>
+            1. Javascript XML - Extension to the JavaScript language syntax <br/>
+            2. XML-like code for elements and components. <br/>
+            3. JSX though is not a necessity to write React application <br/>
+            4. It makes React code more elegant and simpler <br/>
+            5. JSX actually transpiles to pure JavaScript which is understood by the browsers <br/>
+            6. JSX uses 'className' instead of 'class'
+            7. JSX uses 'htmlFor' instead of 'for'; 'onClick' instead of 'onclick' etc 
+        </p>
+        <p>
+       <h4> React with JSX </h4>
+            <code>
+            const Hello=()=>{
+                return(
+                    <div className='ChasfatClass'>
+                    <h5> Hello Chasfat </h5>
+                    </div>
+                )
+            }
+            </code>
+            <h4> React without JSX </h4>
+            <code>
+                const Hello=()=>{
+               return React.createElement('div',{id:'hello',className:'ChasfatClass'},React.createElement('h5',null,'Hello Chasfat'))
+            }
+            </code>
+            So which do you really prefer ?
+        </p>
+        </td>
+    </tr>
+    <tr>
+    </tr>
+
+</table>
+</div>
