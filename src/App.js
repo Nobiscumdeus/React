@@ -5,7 +5,12 @@ import TodoApp from './components/TodoApp.js'
 import Form from './components/CrudForm.js'
 import Profile from './components/Profile.js'
 import Board from './components/TicTacToe'
+import CheckNumber from './components/Number'
+import Grade from './components/StudentGrade'
+import GradingSummary from './components/StudentGrade'
 
+//using the Portal Component here 
+import PortalComponent from './portal/PortalComponent'
 
 /**
  *  
@@ -31,6 +36,8 @@ function App() {
        <h1> Chasfat Projects working on React </h1>
        <Profile />
        <br/>
+       <CheckNumber />
+       <br/>
         <WeatherComponent />
         <br/>
         <TodoApp />
@@ -38,6 +45,11 @@ function App() {
         <Form />
         <br/>
         <Board />
+        {/* Portal Component used here */}
+        <br/>
+        <PortalComponent targetId="grading-summary-root">
+          <GradingSummary grades={grades} />
+        </PortalComponent>
       
       </header>
       
