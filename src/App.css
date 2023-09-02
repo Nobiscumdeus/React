@@ -147,3 +147,12 @@ form textarea::placeholder
 {
   background:#ff004f;
 }
+
+
+.quiz-container{
+  width:50%;
+}
+.quiz-container button
+{
+  width:fit-content;
+}

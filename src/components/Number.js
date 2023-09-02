@@ -11,7 +11,7 @@ function CheckNumber(){
 
     },[value])
 
-    increment=()=>{
+    const increment=()=>{
         setValue(value+1);
 
     }

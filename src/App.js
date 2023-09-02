@@ -11,7 +11,7 @@ import GradingSummary from './components/StudentGrade'
 
 //using the Portal Component here 
 import PortalComponent from './portal/PortalComponent'
-
+import Quiz from './components/QuizApp'
 /**
  *  
  * import { Link } from 'react-router-dom'
@@ -48,8 +48,10 @@ function App() {
         {/* Portal Component used here */}
         <br/>
         <PortalComponent targetId="grading-summary-root">
-          <GradingSummary grades={grades} />
+          <GradingSummary />
         </PortalComponent>
+        <br/>
+        <Quiz />
       
       </header>
       

@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOm from 'react-dom'
+import ReactDOM from 'react-dom'
 
 /**The main purpose of a portal is to provide a way to 
 render content outside of the typical component hierarchy, 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React , {useState} from 'react'
 
 
 const GradingForm=({onGradeSubmit})=>{ //We got the onGradeSubmit as a prop and its a function 
@@ -58,20 +58,21 @@ function Grade(){
     const[grades,setGrades]=useState([])
 
     const handleGradeSubmit=()=>{
-        setGrades([...grades,newGrade])
+        setGrades([...grades,grades])
     }
     return(
         <>
          <GradingForm onGradeSubmit={handleGradeSubmit} />
 
-//If there are grades, lets display, if not lets not
 {grades.length>0 &&(
    
-    <GradingSummary grdes={grades} />
+    <GradingSummary grades={grades} />
   
 )}
 
         </>
+        
+//If there are grades, lets display, if not lets not
         //We first of all show the form here and pass the function that stores the grades too
        
 
