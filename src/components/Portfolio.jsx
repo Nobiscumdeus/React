@@ -34,20 +34,21 @@ const PortfolioSection = () => {
     {
       title: "Web Development",
       description: "The Web app showcases some fully-fledged web projects created with cutting-edge web technologies ",
-      imageUrl: "/src/assets/images/pexels-fabricio-trujillo-60626.png",
+      imageUrl: "/src/assets/images/pexels-neo-2653362.png",
       link: "https://friendly-arithmetic-678f83.netlify.app/"
     },
     {
       title: "Technical Writing & Blogging",
       description: "Check out my blog posts on a range of topics which includes programming and other topics you can benefit from in no mean way.",
-      imageUrl: "/src/assets/images/pexels-lukas-574077.png",
+      imageUrl: "/src/assets/images/pexels-fabricio-trujillo-60626.png",
       link: "https://chasfatprojects.hashnode.dev"
     },
     // Add more portfolio items as 
     {
         title: "Other Projects",
         description: "This link takes you to other cutting edge projects developed with various technologies.",
-        imageUrl: "/src/assets/images/pexels-neo-2653362.png",
+        imageUrl: "/src/assets/img/banner-bg.png",
+        
         link: "https://projects-a0js.onrender.com"
       },
   ];
