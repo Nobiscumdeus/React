@@ -32,7 +32,7 @@ const SlidingText = () => {
   }, [currentTextIndex, displayedText, dynamicTexts, showCursor]);
 
   return (
-    <div className="header-text relative w-full md:w-110 shadow-md rounded-lg p-6 ml-0 md:ml-0 md:mr-auto" style={{ background: '#4b5563' }}>
+    <div className="header-text relative w-full md:w-100 sm:w-70 sm:p-4 shadow-md rounded-lg p-6 ml-0 md:ml-0 md:mr-auto" style={{ background: '#4b5563' }}>
       <div className="wrapper flex items-center">
         <div className="static-txt text-slate-800 text-4xl sm:text-2xl md:text-3xl font-medium">I'M</div>
         <div className="ml-4 overflow-hidden">
