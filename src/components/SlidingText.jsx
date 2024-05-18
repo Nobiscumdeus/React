@@ -34,10 +34,10 @@ const SlidingText = () => {
   return (
     <div className="header-text relative w-full md:w-110 shadow-md rounded-lg p-6 ml-0 md:ml-0 md:mr-auto" style={{ background: '#4b5563' }}>
       <div className="wrapper flex items-center">
-        <div className="static-txt text-slate-800 text-4xl font-medium">I'M</div>
+        <div className="static-txt text-slate-800 text-4xl sm:text-2xl md:text-3xl font-medium">I'M</div>
         <div className="ml-4 overflow-hidden">
           <ul className="dynamic-txts">
-            <li className="text-white text-4xl font-medium uppercase tracking-wider">
+            <li className="text-white text-4xl sm:text-2xl md:text-3xl font-medium uppercase tracking-wider">
               {displayedText}
               {showCursor && <span className="cursor animate-blink">|</span>}
             </li>
