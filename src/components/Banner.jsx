@@ -1,10 +1,11 @@
 import {AiFillGithub} from 'react-icons/ai'
-import { FaLinkedinIn,FaInstagram} from 'react-icons/fa'
+import { FaLinkedinIn,FaInstagram,FaFacebook, FaYoutube,FaTiktok} from 'react-icons/fa'
 import {FiTwitter} from 'react-icons/fi'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
-import img from '../assets/img/project-img3.png'
+import SlidingText from './SlidingText';
+import TabChange from './TabChange';
+import img from '../assets/img/IMG_20230409_182824_803.png'
 
 const Banner=()=>{
     AOS.init({
@@ -18,32 +19,49 @@ const Banner=()=>{
 
                 <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal uppercase"> Welcome to <span className="text-fuchsia-500"> My Portfolio Site </span></h1>
                 
-                <p data-aos="fade-left" className="text-left"> I am a Christian who is 
-                greatly interested in solving problems, impacting lives positively
-                 and making simple contributions of
-                 herculean value to advance human well-being.
-                I am the CEO of Chasfat Project$ whose vision 
-                revolves round acheiving excellence in pursuit of 
-                Classical Music, Health, Academics, Service to humanity,
-                 Financial capacity , Agriculture and Technology.
+                <p data-aos="zoom-out" className="text-left">
+                
+                    <>
+                    <SlidingText />
+                   
+                    </>
+                    <br/>
+                  
                 </p>
+                <p data-aos="zoom-in" className="text-left">
+                <>
+                     <TabChange />
+                    </>
+
+                </p>
+                   
                 
 
                 <div className="flex mt-8 gap-2">
                 <div className="flex  items-center justify-center">
                     <div className="flex space-x-2">
-                        <a href="" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://www.linkedin.com/in/olumide-adeola-745864222" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FaLinkedinIn className="text-[28px]" />
                         </a>
-                        <a href="" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://github.com/Nobiscumdeus" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <AiFillGithub className="text-[28px]" />
                         </a>
-                        <a href="" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://twitter.com/Chasfat_Project?t=xVU_-2kpkqjxcQgxASZ_Hw&s=09" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FiTwitter className="text-[28px]" />
                         </a>
-                        <a href="" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://instagram.com/chasfat_projects" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FaInstagram className="text-[28px]" />
                         </a>
+                        <a href="https://www.tiktok.com/@chasfat?_t=8mORBebKpHi&_r=1"  target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                            <FaTiktok className="text-[28px]" />
+                        </a>
+                        <a href="https://www.facebook.com/oyindamola.adeola.1656" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                            <FaFacebook className="text-[28px]" />
+                        </a>
+                        <a href="https://www.youtube.com/@chasfatprojects"  target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                            <FaYoutube className="text-[28px]" />
+                        </a>
+
                     </div>
                 </div>
             </div>

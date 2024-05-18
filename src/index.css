@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+ p {
+      font-family: Arial, sans-serif;
+    }
 .glow{
   transition:all 0.3s ease-in-out;
 }
