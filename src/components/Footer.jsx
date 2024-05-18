@@ -27,26 +27,26 @@ const Footer=()=>{
                 </div>
            
                 <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Follow me
-                <div className="flex space-x-3">
-                <a href="https://www.linkedin.com/in/olumide-adeola-745864222" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                <div className="flex flex-wrap space-x-3">
+                <a href="https://www.linkedin.com/in/olumide-adeola-745864222" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full md:w-1/3 lg:w-1/4 glow p-2">
                             <FaLinkedinIn className="text-[28px]" />
                         </a>
-                        <a href="https://github.com/Nobiscumdeus" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://github.com/Nobiscumdeus" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full md:w-1/3 lg:w-1/4 glow p-2">
                             <AiFillGithub className="text-[28px]" />
                         </a>
-                        <a href="https://twitter.com/Chasfat_Project?t=xVU_-2kpkqjxcQgxASZ_Hw&s=09" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://twitter.com/Chasfat_Project?t=xVU_-2kpkqjxcQgxASZ_Hw&s=09" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full md:w-1/3 lg:w-1/4 glow p-2">
                             <FiTwitter className="text-[28px]" />
                         </a>
-                        <a href="https://instagram.com/chasfat_projects" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://instagram.com/chasfat_projects" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full md:w-1/3 lg:w-1/4 glow p-2">
                             <FaInstagram className="text-[28px]" />
                         </a>
-                        <a href="https://www.tiktok.com/@chasfat?_t=8mORBebKpHi&_r=1"  target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://www.tiktok.com/@chasfat?_t=8mORBebKpHi&_r=1"  target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full md:w-1/3 lg:w-1/4 glow p-2">
                             <FaTiktok className="text-[28px]" />
                         </a>
-                        <a href="https://www.facebook.com/oyindamola.adeola.1656" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://www.facebook.com/oyindamola.adeola.1656" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full md:w-1/3 lg:w-1/4 glow p-2">
                             <FaFacebook className="text-[28px]" />
                         </a>
-                        <a href="https://www.youtube.com/@chasfatprojects"  target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://www.youtube.com/@chasfatprojects"  target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full md:w-1/3 lg:w-1/4 glow p-2">
                             <FaYoutube className="text-[28px]" />
                         </a>
 
