@@ -9,8 +9,8 @@ const TabChange = () => {
   };
 
   return (
-    <div className="p-6 bg-slate-900">
-      <div className="max-w-lg mx-auto">
+    <div className="p-5 bg-slate-900">
+      <div className="max-w-lg  md:max-w-md mx-auto">
 
 
         <div className="flex mb-8">
