@@ -10,7 +10,11 @@ const PortfolioCard = ({ title, description, imageUrl, link }) => {
     })
  
   return (
+<<<<<<< HEAD
     <div data-aos="flip-right" className="max-w-sm rounded overflow-hidden shadow-lg">
+=======
+    <div data-aos="fade-in" className="max-w-sm rounded overflow-hidden shadow-lg">
+>>>>>>> 999ffc3977d08274745bb358d80bc40fd6667582
       <img className="w-full" src={imageUrl} alt={title} />
       <div className="px-6 py-4">
         <div className=" text-fuchsia-800 font-bold text-xl mb-2">{title}</div>
@@ -34,13 +38,21 @@ const PortfolioSection = () => {
     {
       title: "Web Development",
       description: "The Web app showcases some fully-fledged web projects created with cutting-edge web technologies ",
+<<<<<<< HEAD
       imageUrl: "src/assets/images/pexels-neo-2653362.png",
+=======
+      imageUrl: "/src/assets/images/pexels-neo-2653362.png",
+>>>>>>> 999ffc3977d08274745bb358d80bc40fd6667582
       link: "https://friendly-arithmetic-678f83.netlify.app/"
     },
     {
       title: "Technical Writing & Blogging",
       description: "Check out my blog posts on a range of topics which includes programming and other topics you can benefit from in no mean way.",
+<<<<<<< HEAD
       imageUrl: "src/assets/images/pexels-fabricio-trujillo-60626.png",
+=======
+      imageUrl: "/src/assets/images/pexels-fabricio-trujillo-60626.png",
+>>>>>>> 999ffc3977d08274745bb358d80bc40fd6667582
       link: "https://chasfatprojects.hashnode.dev"
     },
     // Add more portfolio items as 
