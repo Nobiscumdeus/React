@@ -41,7 +41,7 @@ const PortfolioSection = () => {
     {
       title: "Web Development",
       description: "The Web app showcases some fully-fledged web projects created with cutting-edge web technologies ",
-      imageUrl: img2,
+      imageUrl: img1,
 
    
       link: "../images/pexels-neo-2653362.jpg"
