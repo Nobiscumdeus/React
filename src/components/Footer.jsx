@@ -9,7 +9,7 @@ const Footer=()=>{
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
                 <div className="mb-4 md:mb-0">
                     <span className="text-[22px] text-3xl font-semibold text-fuchsia-800 py-2 uppercase">Logo</span>
-                    <p className="text-[16px] my-4">Lorem Ipsum dolor consecteur afirm ationlixationn here </p> 
+                    <p className="text-[16px] my-4"> Chasfat represents my passions and stands for:  CLASSICALS | HEALTH | ACADEMICS | SERVICE | FINANCE | AGRICULTURE | TECHNOLOGY </p> 
                 </div>
                 <div>
                     <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase"> Services </h2>
@@ -18,6 +18,9 @@ const Footer=()=>{
                         <li className="my-2"> Data Science</li>
                         <li className="my-2"> Cybersecurity</li>
                         <li className="my-2">Telemedicine</li>
+                        <li className="my-2">Music training</li>
+                        <li className="my-2"> Piano </li>
+                        <li className="my-2">Science Courses tutorials </li>
                     </ul>
                 </div>
                 <div className="mb-4 md:mb-0">
