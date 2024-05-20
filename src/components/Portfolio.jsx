@@ -2,6 +2,10 @@ import React from 'react';
 import { FaExternalLinkAlt } from 'react-icons/fa'; // Example icon from react-icons
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import img1 from '../assets/img/IMG_20230409_182824_803.png'
+import img2 from '../images/pexels-fabricio-trujillo-60626.png'
+import img3 from '../images/pexels-neo-2653362.jpg'
+
 const PortfolioCard = ({ title, description, imageUrl, link }) => {
     AOS.init({
         easing:'ease-out-quart',
@@ -37,7 +41,7 @@ const PortfolioSection = () => {
     {
       title: "Web Development",
       description: "The Web app showcases some fully-fledged web projects created with cutting-edge web technologies ",
-      imageUrl: "src/assets/images/pexels-neo-2653362.png",
+      imageUrl: img2,
 
    
       link: "../images/pexels-neo-2653362.jpg"
