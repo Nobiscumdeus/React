@@ -17,12 +17,10 @@ const Banner=()=>{
         <div data-aos='fade-down' className="lg:px-30 md:px-22 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-20 items-center" >
             <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
 
-<<<<<<< HEAD
+
                 <h1 data-aos="fade-right" className="sm:text-[25px] md:text-[35px] text-[35px] font-semibold mb-8 leading-normal uppercase"> Welcome to <span className="text-fuchsia-500"> My Portfolio Site </span></h1>
-=======
-                <h1 data-aos="fade-right" className="sm:text-[25px] md:text-[40px] text-[48px] font-semibold mb-8 leading-normal uppercase"> Welcome to <span className="text-fuchsia-500"> My Portfolio Site </span></h1>
->>>>>>> 999ffc3977d08274745bb358d80bc40fd6667582
-                
+
+
                 <p data-aos="zoom-out" className="text-left">
                 
                     <>
