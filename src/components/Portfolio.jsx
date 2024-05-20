@@ -2,10 +2,6 @@ import React from 'react';
 import { FaExternalLinkAlt } from 'react-icons/fa'; // Example icon from react-icons
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import img1 from '../assets/img/IMG_20230409_182824_803.png'
-import img2 from '../images/pexels-fabricio-trujillo-60626.png'
-import img3 from '../images/pexels-neo-2653362.jpg'
-
 const PortfolioCard = ({ title, description, imageUrl, link }) => {
     AOS.init({
         easing:'ease-out-quart',
@@ -41,15 +37,13 @@ const PortfolioSection = () => {
     {
       title: "Web Development",
       description: "The Web app showcases some fully-fledged web projects created with cutting-edge web technologies ",
-      imageUrl: img1,
-
-   
-      link: "../images/pexels-neo-2653362.jpg"
+      imageUrl: "portfo/images/pexels-neo-2653362.jpg",
+      link: "https://friendly-arithmetic-678f83.netlify.app/"
     },
     {
       title: "Technical Writing & Blogging",
       description: "Check out my blog posts on a range of topics which includes programming and other topics you can benefit from in no mean way.",
-      imageUrl: "../images/pexels-fabricio-trujillo-60626.png",
+      imageUrl: "../images/banner-bg.png",
 
       link: "https://chasfatprojects.hashnode.dev"
     },
@@ -57,7 +51,8 @@ const PortfolioSection = () => {
     {
         title: "Other Projects",
         description: "This link takes you to other cutting edge projects developed with various technologies.",
-        imageUrl:"images/banner-bg.png",
+        imageUrl: "images/pexels-fabricio-trujillo-60626.png",
+     
         
         link: "https://projects-a0js.onrender.com"
       },
