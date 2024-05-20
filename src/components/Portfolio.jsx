@@ -40,12 +40,12 @@ const PortfolioSection = () => {
       imageUrl: "src/assets/images/pexels-neo-2653362.png",
 
    
-      link: "https://friendly-arithmetic-678f83.netlify.app/"
+      link: "./images/pexels-neo-2653362.jpg"
     },
     {
       title: "Technical Writing & Blogging",
       description: "Check out my blog posts on a range of topics which includes programming and other topics you can benefit from in no mean way.",
-      imageUrl: "/src/assets/images/pexels-fabricio-trujillo-60626.png",
+      imageUrl: "/images/pexels-fabricio-trujillo-60626.png",
 
       link: "https://chasfatprojects.hashnode.dev"
     },
@@ -54,6 +54,7 @@ const PortfolioSection = () => {
         title: "Other Projects",
         description: "This link takes you to other cutting edge projects developed with various technologies.",
         imageUrl: "../src/assets/img/banner-bg.png",
+        imageUrl:"images/banner-bg.png",
         
         link: "https://projects-a0js.onrender.com"
       },

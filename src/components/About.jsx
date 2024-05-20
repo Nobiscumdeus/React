@@ -45,7 +45,7 @@ const About=()=>{
                     <div className="flex space-x-2">
 
                       
-                       <a className="neno-button shadow-c=xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden" href="src/assets/images/Olumide CV.pdf" download > RESUME</a>
+                       <a className="neno-button shadow-c=xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase relative overflow-hidden" href="/images/Olumide CV.pdf" download > RESUME</a>
 
                       
 
