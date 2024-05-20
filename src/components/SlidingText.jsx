@@ -32,32 +32,21 @@ const SlidingText = () => {
   }, [currentTextIndex, displayedText, dynamicTexts, showCursor]);
 
   return (
-<<<<<<< HEAD
+
     
       <div className="wrapper flex items-center">
         <div className="static-txt text-fuchsia-800 text-2xl sm:text-2xl md:text-2xl font-medium">I'M</div>
         <div className="ml-4 overflow-hidden">
           <ul className="dynamic-txts">
             <li className="text-white text-2xl sm:text-2xl md:text-2xl font-medium capital tracking-wider">
-=======
-    <div className="header-text relative w-full md:w-100 sm:w-70 sm:p-4 shadow-md rounded-lg p-4 ml-0 md:ml-0 md:mr-auto" style={{ background: '#4b5563' }}>
-      <div className="wrapper flex items-center">
-        <div className="static-txt text-slate-800 text-3xl sm:text-2xl md:text-3xl font-medium">I'M</div>
-        <div className="ml-4 overflow-hidden">
-          <ul className="dynamic-txts">
-            <li className="text-white text-3xl sm:text-2xl md:text-3xl font-medium uppercase tracking-wider">
->>>>>>> 999ffc3977d08274745bb358d80bc40fd6667582
+
               {displayedText}
               {showCursor && <span className="cursor animate-blink">|</span>}
             </li>
           </ul>
         </div>
       </div>
-<<<<<<< HEAD
-    
-=======
-    </div>
->>>>>>> 999ffc3977d08274745bb358d80bc40fd6667582
+
   );
 };
 

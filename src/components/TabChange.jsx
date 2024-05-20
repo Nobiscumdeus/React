@@ -9,11 +9,9 @@ const TabChange = () => {
   };
 
   return (
-<<<<<<< HEAD
+
     <div className="p-2 bg-slate-900">
-=======
-    <div className="p-3 bg-slate-900">
->>>>>>> 999ffc3977d08274745bb358d80bc40fd6667582
+
       <div className="max-w-lg  md:max-w-md mx-auto">
 
 
