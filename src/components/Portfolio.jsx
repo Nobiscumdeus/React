@@ -3,7 +3,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa'; // Example icon from react-i
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'aos/dist/aos.css';
-import imageUrl1 from './images/pexels-neo-2653362.jpg';
+import imageUrl1 from 'src/assets/images/pexels-neo-2653362.jpg';
 import imageUrl2 from './images/banner-bg.png';
 import imageUrl3 from './images/pexels-fabricio-trujillo-60626.png';
 const PortfolioCard = ({ title, description, imageUrl, link }) => {
