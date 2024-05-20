@@ -4,8 +4,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'aos/dist/aos.css';
 import imageUrl1 from './images/pexels-neo-2653362.jpg';
-import imageUrl2 from './images/banner-bg.png';
-import imageUrl3 from './images/pexels-fabricio-trujillo-60626.png';
+import imageUrl3 from './images/banner-bg.png';
+import imageUrl2 from './images/pexels-fabricio-trujillo-60626.png';
 const PortfolioCard = ({ title, description, imageUrl, link }) => {
     AOS.init({
         easing:'ease-out-quart',
