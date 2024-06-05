@@ -41,7 +41,7 @@ const Banner=()=>{
 
                 <div className="flex mt-8 gap-2">
                 <div className="flex  items-center justify-center">
-                    <div className="flex space-x-2">
+                    <div className="sm:w-5 md:max-w-md flex flex-wrap items-center justify-center space-x-2">
                         <a href="https://www.linkedin.com/in/olumide-adeola-745864222" target="_blank" title="Check my LinkedIn profile here" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FaLinkedinIn className="text-[28px]" />
                         </a>
