@@ -1,5 +1,5 @@
 import {AiFillGithub} from 'react-icons/ai'
-import { FaLinkedinIn,FaInstagram,FaFacebook, FaYoutube,FaTiktok} from 'react-icons/fa'
+import { FaLinkedinIn,FaInstagram,FaFacebook, FaYoutube,FaTiktok,FaLink} from 'react-icons/fa'
 import {FiTwitter} from 'react-icons/fi'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -42,26 +42,29 @@ const Banner=()=>{
                 <div className="flex mt-8 gap-2">
                 <div className="flex  items-center justify-center">
                     <div className="flex space-x-2">
-                        <a href="https://www.linkedin.com/in/olumide-adeola-745864222" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://www.linkedin.com/in/olumide-adeola-745864222" target="_blank" title="Check my LinkedIn profile here" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FaLinkedinIn className="text-[28px]" />
                         </a>
-                        <a href="https://github.com/Nobiscumdeus" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://github.com/Nobiscumdeus" target="_blank" title="My Github repository for programming projects I worked on or contributued to" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <AiFillGithub className="text-[28px]" />
                         </a>
-                        <a href="https://twitter.com/Chasfat_Project?t=xVU_-2kpkqjxcQgxASZ_Hw&s=09" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://twitter.com/Chasfat_Project?t=xVU_-2kpkqjxcQgxASZ_Hw&s=09" title="My twitter handle" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FiTwitter className="text-[28px]" />
                         </a>
-                        <a href="https://instagram.com/chasfat_projects" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://instagram.com/chasfat_projects" title="My Instagram page" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FaInstagram className="text-[28px]" />
                         </a>
-                        <a href="https://www.tiktok.com/@chasfat?_t=8mORBebKpHi&_r=1"  target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://www.tiktok.com/@chasfat?_t=8mORBebKpHi&_r=1"  target="_blank" title="Check my contents on troubleshooting and enlightenment on programming and others" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FaTiktok className="text-[28px]" />
                         </a>
-                        <a href="https://www.facebook.com/oyindamola.adeola.1656" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://www.facebook.com/oyindamola.adeola.1656" target="_blank" title="My Facebook page" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FaFacebook className="text-[28px]" />
                         </a>
-                        <a href="https://www.youtube.com/@chasfatprojects"  target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <a href="https://www.youtube.com/@chasfatprojects"  target="_blank" title="Check out my Youtube Videos" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FaYoutube className="text-[28px]" />
+                        </a>
+                        <a href="https://www.superprof.ng/dashboard.html/my-profile/"  target="_blank" title="Contact me to tutor you on my areas of interest or specialties" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                            <FaLink className="text-[28px]" />
                         </a>
 
                     </div>
