@@ -24,6 +24,19 @@ const Footer=()=>{
                         <li className="my-2">Science Courses tutorials </li>
                     </ul>
                 </div>
+
+                <div>
+                    <h2 className="text-[22px] font-bold text-fuchsia-800 py-2 uppercase"> My Resumes </h2>
+                    
+                    <ul className="text-[16px] my-4"> 
+                        <li className="my-2">
+                        <a className="text-decoration-underline text-white font-bold border-underline" href="https://docs.google.com/document/d/e/2PACX-1vS4MpMWOWytbAJPO4nHDQAuHTi1J-I3Y-6Kkzxu3pr3Yg3rznJ1oR_b1o7BhVYU2m1rdBwloi6rv-M3/pub?authuser=0" target="_blank"> <span className="inline-block"> Full Stack Developer <FaLink className="text-[28px] text-white" /> </span></a>
+                        </li>
+                       
+                    </ul>
+                </div>
+
+
                 <div className="mb-4 md:mb-0">
                   <h2 className="text-[22px] font-bold text-fuchsia-800 py-2 uppercase"> Contact </h2> 
                   <p className="text-[16px] my-4"> Email: emmanueladeola990@gmail.com</p>

@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import SlidingText from './SlidingText';
 import TabChange from './TabChange';
 import img from '../assets/img/IMG_20230409_182824_803.png'
+import img2 from '../assets/img/1715869425719.png'
 
 const Banner=()=>{
     AOS.init({
@@ -41,7 +42,11 @@ const Banner=()=>{
 
                 <div className="flex mt-8 gap-2">
                 <div className="flex  items-center justify-center">
+
+                    
                     <div className="sm:w-5 md:max-w-md flex flex-wrap items-center justify-center space-x-2">
+                        
+                        {/*
                         <a href="https://www.linkedin.com/in/olumide-adeola-745864222" target="_blank" title="Check my LinkedIn profile here" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FaLinkedinIn className="text-[28px]" />
                         </a>
@@ -66,12 +71,14 @@ const Banner=()=>{
                         <a href="https://www.superprof.ng/dashboard.html/my-profile/"  target="_blank" title="Contact me to tutor you on my areas of interest or specialties" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                             <FaLink className="text-[28px]" />
                         </a>
+    */}
 
                     </div>
                 </div>
+                    
             </div>
             </div>
-           <img data-aos="fade-up" src={img} width={290} height={290} className="rounded-full border-2 p-1 border-fuchsia-500 img_glow" alt="" />
+           <img data-aos="fade-up" src={img2} width={290} height={290} className="rounded-full border-2 p-1 border-fuchsia-500 img_glow" alt="" />
         </div>
     )
 
