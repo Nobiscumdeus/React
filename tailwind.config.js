@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode:'class', //Note that it can also take the media or false option 
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],

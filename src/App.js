@@ -14,7 +14,7 @@ import Grid from './components/Grid'
 
 **/
 
-import Excercise from './components/Excercise'
+import Bethel from './components/Bethel'
 
 
 
@@ -23,7 +23,7 @@ function App() {
   return (
     <>
 
-    <Excercise />
+     <Bethel />
     </>
     
        
