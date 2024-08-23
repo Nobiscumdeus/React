@@ -41,7 +41,7 @@ const PortfolioSection = () => {
           title: "Web Development",
           description: "The Web app showcases some fully-fledged web projects created with cutting-edge web technologies ",
           imageUrl: imageUrl1,
-          link: "https://friendly-arithmetic-678f83.netlify.app/"
+          link: "https://chasfatproject-frontend.netlify.app/"
       },
       {
           title: "Technical Writing & Blogging",
@@ -54,7 +54,7 @@ const PortfolioSection = () => {
           title: "Other Projects",
           description: "This link takes you to other cutting edge projects developed with various technologies.",
           imageUrl: imageUrl3,
-          link: "https://projects-a0js.onrender.com"
+          link: "https://github.com/Nobiscumdeus/"
       },
   ];
 
