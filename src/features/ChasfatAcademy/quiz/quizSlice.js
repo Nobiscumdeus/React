@@ -36,7 +36,11 @@ const initialState={
             options: ["H2O", "O2", "CO2", "NaCl"],
             correctAnswer: "H2O",
           },
+
+        
     ],
+   
+
     //An object to store user answers with question ID as the key 
     userAnswers:{}  // eg  1: "Paris", // User answered question 1 with "Paris", 2: "4",     // User answered question 2 with "4"
    
@@ -59,8 +63,13 @@ const quizSlice=createSlice({
     }
 })
 
+
 //Export the action creators 
 export const {setUserAnswer,resetUserAnswers}=quizSlice.actions;
+
+//Export the action creators for the timerSlice
+
+
 
 //Export the reducer to be used in the store 
 export default quizSlice.reducer;
