@@ -14,11 +14,11 @@ const ResumeDownload = () => {
 
     // 3. List of resumes with names and corresponding PDF URLs
     const resumes = [
-        { name: 'Python Full Stack Developer', url: 'src/components/images/python-fullstack-dev-resume.pdf' },
-        { name: 'PHP Full Stack Developer', url: 'src/components/images/php-fullstack-dev-resume.pdf' },
-        { name: 'Data Scientist', url: 'src/components/images/datascience-dataanalysis-resume.pdf' },
-        { name: 'Cybersecurity Expert', url: 'src/components/images/ethicalhacking-resume.pdf' },
-        { name: 'Academic', url: 'src/components/images/Olumide CV.pdf' },
+        { name: 'Python Full Stack Developer', url: '/resumes/python-fullstack-dev-resume.pdf' },
+        { name: 'PHP Full Stack Developer', url: '/resumes/php-fullstack-dev-resume.pdf' },
+        { name: 'Data Scientist', url: '/resumes/datascience-dataanalysis-resume.pdf' },
+        { name: 'Cybersecurity Expert', url: '/resumes/ethicalhacking-resume.pdf' },
+        { name: 'Academic', url: '/resumes/Olumide CV.pdf' },
         
     ];
 
