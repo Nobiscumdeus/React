@@ -1,0 +1,58 @@
+
+
+.menu {
+    position: relative;
+}
+
+.toggle {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    color: fuchsia;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: 1.25s;
+}
+
+.menu.active .toggle {
+    transform: rotate(360deg);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15), 0 0 0 2px fuchsia, 0 0 0 8px #fff;
+}
+
+.menu li {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    list-style: none;
+    transition: 0.5s;
+    transform: translate(-50%, -50%) rotate(calc(360deg / 8 * var(--i))) translate(80px);
+    scale: 0;
+    transition-delay: calc(0.05s * var(--i));
+    
+}
+
+.menu.active li {
+    scale: 1;
+}
+
+.menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Adjust width */
+    height: 40px; /* Adjust height */
+    border-radius: 50%; /* Make circular */
+    background-color: var(--clr);
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Add hover effect */
+}
