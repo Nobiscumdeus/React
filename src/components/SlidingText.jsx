@@ -34,7 +34,7 @@ const SlidingText = () => {
   return (
 
     
-      <div className="wrapper flex items-center">
+      <div className="wrapper flex justify-center items-center ">
         <div className="static-txt text-fuchsia-800 text-2xl sm:text-2xl md:text-2xl font-medium">I'M</div>
         <div className="ml-4 overflow-hidden">
           <ul className="dynamic-txts">

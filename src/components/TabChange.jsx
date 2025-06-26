@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import classnames from 'classnames';
 import { FaAtom } from 'react-icons/fa'
 import { FaList,FaBars,FaCrown } from 'react-icons/fa'
@@ -12,12 +12,12 @@ const TabChange = () => {
 
   return (
 
-    <div className="p-2 bg-slate-900">
+    <div className="p-2 bg-slate-800">
 
-      <div className="max-w-lg  md:max-w-md mx-auto">
+      <div className="max-w-lg  md:max-w-md mx-auto ">
 
 
-        <div className="flex items-center justify-center mb-8">
+        <div className="flex items-center justify-center mb-8 mt-4">
           <button
             className={classnames("px-4 py-2 mr-4 text-lg font-semibold rounded-t-lg focus:outline-none", {
               "bg-fuchsia-800 text-white": activeTab === "skills",
@@ -47,7 +47,7 @@ const TabChange = () => {
           </button>
         </div>
 
-        <div className="bg-slate-800 rounded-b-lg shadow-md p-6">
+        <div className="rounded-b-lg shadow-md p-6">
           <div className={classnames({ 'hidden': activeTab !== 'skills' })}>
             <ul>
               <li><span className="text-gray-200 font-bold "> <h1 className="uppercase text-2xl "> <span className="inline-block mr-2"><FaList size={20} color="#fff" /></span>Web Development</h1> <br/> I am a full stack developer using front end frameworks  like Vanilla Javascript, VueJS,React etc
