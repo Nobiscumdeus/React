@@ -150,7 +150,7 @@ const TabChange = () => {
                     <FaList size={16} className="mr-2 sm:mr-3" color="#fff" />
                     (2024-current)
                   </h1>
-                  <p className="text-sm sm:text-base">Volunteer Full Stack Developer, URecover-App</p>
+                  <p className="text-sm sm:text-base">Full Stack Developer, URecover-App</p>
                 </span>
               </li>
               
