@@ -18,7 +18,7 @@ const ResumeDownload = () => {
         { name: 'PHP Full Stack Developer', url: '/resumes/php-fullstack-dev-resume.pdf' },
         { name: 'Data Scientist', url: '/resumes/datascience-dataanalysis-resume.pdf' },
         { name: 'Cybersecurity Expert', url: '/resumes/ethicalhacking-resume.pdf' },
-        { name: 'Academic', url: '/resumes/Olumide CV.pdf' },
+        { name: 'Professional CV', url: '/resumes/OLUMIDE ADEOLA Currivulum Vitae (CV).pdf'},
         
     ];
 

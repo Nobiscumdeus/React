@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import classnames from 'classnames';
-import { FaAtom, FaList, FaBars, FaCrown } from 'react-icons/fa';
+import { FaAtom, FaList } from 'react-icons/fa';
 
 const TabChange = () => {
   const [activeTab, setActiveTab] = useState('skills');
