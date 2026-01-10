@@ -1,4 +1,5 @@
-import { AiFillGithub } from "react-icons/ai";
+//import { AiFillGithub } from "react-icons/ai";
+/*
 import {
   FaLinkedinIn,
   FaInstagram,
@@ -7,12 +8,13 @@ import {
   FaTiktok,
   FaLink,
 } from "react-icons/fa";
-import { FiTwitter } from "react-icons/fi";
+ */
+//import { FiTwitter } from "react-icons/fi";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SlidingText from "./SlidingText";
 import TabChange from "./TabChange";
-import img from "../assets/img/IMG_20230409_182824_803.png";
+//import img from "../assets/img/IMG_20230409_182824_803.png";
 import img2 from "../assets/img/1715869425719.png";
 
 const Banner = () => {

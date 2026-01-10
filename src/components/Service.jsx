@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaDatabase, FaLaptop, FaUserSecret, FaMusic } from 'react-icons/fa';
 
 import AOS from 'aos';

@@ -1,7 +1,8 @@
-import  img1 from '../assets/img/project-img1.png'
+//import  img1 from '../assets/img/project-img1.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import PortfolioSection from './Portfolio'
+//import ProjectsPortfolio from './ProjectPortfolio';
 
 const Projects=()=>{
     AOS.init({
