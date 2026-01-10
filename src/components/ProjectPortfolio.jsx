@@ -561,7 +561,7 @@ const ProjectsPortfolio = () => {
  
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-fuchsia-600/90 py-12 px-4">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900/80 to-fuchsia-900/50 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Back Button */}
        <motion.div
