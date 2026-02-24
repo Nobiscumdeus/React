@@ -13,6 +13,17 @@ import './index.css';
 import './App.css';
 import ScrollToTop from './components/ScrollToTop';
 
+function ErrorButton(){
+    return(
+        <button onClick={()=>{
+            throw new Error("Prduction test error ")
+        }}> 
+        Test Sentry 
+
+        </button>
+    )
+}
+
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -52,6 +63,7 @@ function App() {
               <Projects />
               <Contact />
               <Footer />
+              <ErrorButton />
             </div>
           } />
           
