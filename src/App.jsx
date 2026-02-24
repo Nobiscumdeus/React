@@ -13,7 +13,7 @@ import './index.css';
 import './App.css';
 import ScrollToTop from './components/ScrollToTop';
 
-import ErrorButton from './components/ErrorButton';
+//import ErrorButton from './components/ErrorButton';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -53,7 +53,9 @@ function App() {
               <Projects />
               <Contact />
               <Footer />
-              <ErrorButton />
+           {/*
+            <ErrorButton />
+            */}
             </div>
           } />
           
