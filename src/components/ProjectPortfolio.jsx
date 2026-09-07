@@ -22,6 +22,41 @@ import 'aos/dist/aos.css';
 const PROJECTS_DATA = [
   // WEB DEVELOPMENT PROJECTS
   {
+  id: 'rapha-intl-ministries',
+  name: 'Rapha International Ministries — Official Church Website',
+  description:
+    'A robust public-facing church platform built for Rapha International Ministries. Designed as a complete digital presence for the ministry, covering the visitor journey from the landing page through branch information, leadership, ministries, programs, media, giving, prayer requests, contact, and other essential church resources.',
+  category: 'web',
+  level: 'personal',
+  stack: 'fullstack',
+  tech: [
+    'Next.js',
+    'React',
+    'TypeScript',
+    'Tailwind CSS',
+    'Vercel'
+  ],
+  keyFeatures: [
+    'Responsive, production-ready church website with dedicated mobile, tablet, and desktop experiences',
+    'Church landing page with welcome messaging, ministry vision, service information, and calls to action',
+    'Dedicated branch pages for Bethel Tabernacle and Brook Tabernacle',
+    'Branch-specific service schedules, locations, contact information, social links, and embedded maps',
+    'Branch-specific welcome songs with audio playback, lyrics, excerpts, and musical information',
+    'Leadership and ministers directory with profiles and ministry information',
+    'Ministries and programs sections for communicating church activities and upcoming gatherings',
+    'Media and content-ready architecture for sermons, resources, and other ministry materials',
+    'Prayer request and contact pathways for visitor and member engagement',
+    'Giving interface for supporting the ministry and designated ministry projects',
+    'Reusable component architecture for consistent layouts and scalable content management',
+    'Responsive navigation with adaptive tablet and desktop layouts',
+    'SEO-conscious page structure and deployment optimized for the public web'
+  ],
+  github: 'https://github.com/Nobiscumdeus/raphaintlministries',
+  live: 'https://raphaintlministries.vercel.app',
+  gallery: []
+},
+
+  {
   id: 'read-time-ai',
   name: 'ReadTime - Smart Reading Tracker',
   description: 'Full-stack reading analytics platform with AI-ready architecture. Currently features comprehensive data tracking and visualization, with scikit-learn integration prepared for upcoming ML model deployment. Built to evolve from analytics to predictive AI.',
@@ -54,7 +89,7 @@ const PROJECTS_DATA = [
   level: 'contribution',
   stack: 'fullstack',
   tech: ['Django', 'React', 'Tailwind CSS', 'Docker'],
-  // Add your actual GitHub repo link here if applicable
+
   github: 'https://github.com/[Organization-Name]/monimoore',
   live: 'https://monimoore.com/',
   gallery: []
